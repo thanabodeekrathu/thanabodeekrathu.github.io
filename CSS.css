@@ -1,6 +1,14 @@
 body {
-  background-color: #a2c1e8;
+  background-color: #FFF;
   margin: 0 auto;
+}
+
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 ul {
@@ -55,7 +63,8 @@ h4 {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 2px;
-  text-align: center;
+  margin-left: 5%;
+  /*text-align: center;*/
   text-transform: uppercase
 }
 
@@ -65,31 +74,41 @@ p {
   font-size: 18px;
 }
 
-.introduce {
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+  margin-top: 100px;
+  height: 100px;
+}
+
+.answer p {
+  margin-left: 15%;
+}
+
+.welcome {
   background-color: #DBE9EE;
   box-sizing: border-box;
   padding: 40px;
   text-align: center;
   width: 100%;
   position: relative;
-  top: 50px;
+  top: 80px;
 }
 
 .question {
-  text-align: center;
+  box-sizing: border-box;
+  /*text-align: center;*/
   position: relative;
   top: 40px;
 }
 
 .answer {
-  border: 1px solid #466995;
-  margin: 20px;
+  padding-left: 50px;
+  position: relative;
+  top: 40px;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: 10%;
   display: inline-block;
-  height: 150px;
-  width: 200px;
-}
-
-.answer:hover {
-  background: #C0D6DF;
-  color: #FFF;
+  margin-right: 10%;
 }
