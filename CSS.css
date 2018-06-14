@@ -1,14 +1,6 @@
 body {
-  background-color: #FFF;
+  background-color: #a2c1e8;
   margin: 0 auto;
-}
-
-header {
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
 }
 
 ul {
@@ -71,12 +63,6 @@ p {
   color: #333;
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
-}
-
-footer {
-  background-color: #DBE9EE;
-  text-align: center;
-  height: 100px;
 }
 
 .introduce {
